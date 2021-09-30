@@ -136,5 +136,12 @@ local result = interpreter:interpret( InterpreterContext:new(var) )
 ## Getting Involved
 - __Report bugs__ by posting a description, full stack trace, and all relevant code in a  [GitHub issue](https://github.com/chenxianyu2015/liquid-lua/issues).
 
+## Development
+
+### Test in a linux container
+ ```sh
+ $ make development
+ # lua ex01.lua
+
 ## Licence
 This module is licensed under the BSD license.
