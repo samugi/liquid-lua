@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  development:
+    build: .
+    tty: true
+    working_dir: /home/development/examples
+    volumes:
+      - ./examples:/home/development/examples
+
+volumes:
+  workdir:
